@@ -190,7 +190,6 @@ namespace gps {
 				bottom++;
 			}
 		}
-
 		GLuint textureID;
 		glGenTextures(1, &textureID);
 		glBindTexture(GL_TEXTURE_2D, textureID);

@@ -61,7 +61,6 @@ float computeShadow()
     return shadow;
 }
 
-
 void main() 
 {
     computeDirLight();

@@ -64,7 +64,6 @@ gps::Shader shader[2];
 GLuint shadowMapFBO;
 GLuint depthMapTexture;
 
-
 GLenum glCheckError_(const char *file, int line)
 {
 	GLenum errorCode;

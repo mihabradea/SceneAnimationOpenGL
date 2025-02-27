@@ -32,6 +32,7 @@ namespace gps {
         if(!success)
         {
             glGetShaderInfoLog(shaderId, 512, NULL, infoLog);
+
             std::cout << "Shader compilation error\n" << infoLog << std::endl;
         }
     }

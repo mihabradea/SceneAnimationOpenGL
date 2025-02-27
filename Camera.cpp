@@ -1,7 +1,6 @@
 #include "Camera.hpp"
 
 namespace gps {
-
     //Camera constructor
     Camera::Camera(glm::vec3 cameraPosition, glm::vec3 cameraTarget, glm::vec3 cameraUp) {
         this->cameraPosition = cameraPosition;
@@ -42,7 +41,6 @@ namespace gps {
             break;
         }
     }
-
     //update the camera internal parameters following a camera rotate event
     //yaw - camera rotation around the y axis
     //pitch - camera rotation around the x axis
